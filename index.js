@@ -1,6 +1,6 @@
 const { Client, GatewayIntentBits, SlashCommandBuilder, REST, Routes, EmbedBuilder } = require('discord.js');
 const fs = require('fs');
-const TOKEN = const TOKEN = process.env.TOKEN;
+const TOKEN = process.env.TOKEN;
 const CLIENT_ID = '1496782462343188541';
 const PLAYERS_FILE = 'players.json';
 const TOURNAMENT_FILE = 'tournament.json';
